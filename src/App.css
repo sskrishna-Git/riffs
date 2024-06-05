@@ -69,8 +69,8 @@ body {
   background-color: #222834;
   color: white;
   text-align: center;
-  padding: 40px 0;
-  position: fixed;
+  padding: 10px 0;
+  position:relative;
   width: 100%;
   bottom: 0;
 }
@@ -127,11 +127,12 @@ img {
   padding: 40px 20px 50px;
   background-color: #f8f8f8;
   text-align: center;
+  
 }
 
 .testimonials h2 {
   margin-bottom: 40px;
-  color: #333;
+  color: #000000;
 }
 
 .testimonial-list {
@@ -161,6 +162,8 @@ img {
 .testimonial p {
   font-style: italic;
   margin-bottom: 10px;
+  font-size: large;
+  color: #000000;
 }
 
 .testimonial h3 {
