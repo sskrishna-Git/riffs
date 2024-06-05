@@ -36,3 +36,133 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 20px;
+  background-color: #f0f0f0;
+}
+.feature img {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+
+.feature {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgb(0,0,0,0.1);
+  text-align: center;
+  width: 30%;
+}
+
+.footer {
+  background-color: #222834;
+  color: white;
+  text-align: center;
+  padding: 40px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+header, section, footer {
+  padding: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.courses {
+  padding: 40px 20px;
+}
+
+.course-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.course {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 30%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.course img {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+
+.course h3 {
+  margin: 20px 0 10px;
+}
+
+.testimonials {
+  padding: 40px 20px 50px;
+  background-color: #f8f8f8;
+  text-align: center;
+}
+
+.testimonials h2 {
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.testimonial-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.testimonial {
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+  width: 50%;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  text-align: center;
+}
+
+.testimonial img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.testimonial p {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.testimonial h3 {
+  color: #333;
+}
