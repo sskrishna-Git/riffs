@@ -1,11 +1,11 @@
 .header {
     background-size:cover;
-    background-position:bottom;
+    background-position:center;
     padding: 50px 300px 500px 100px ;
     color: rgb(26, 0, 0);
     background-color: #b0bfde;
     position: relative;
-    
+    width: 100%;
   }
   .h1 {
     padding-top: 1px;
